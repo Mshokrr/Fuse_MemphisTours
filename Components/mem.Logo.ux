@@ -1,0 +1,7 @@
+<Panel ux:Class="mem.Logo">
+  <float ux:Property="FontSize" />
+    <StackPanel>
+      <Text TextAlignment="Center" Font="SFDisplayBold" FontSize="{ReadProperty FontSize}" Color="#FFF">MEMPHIS</Text>
+      <Text TextAlignment="Center" Font="SFDisplayLight" FontSize="{ReadProperty FontSize} + 13" Color="#FFF">TOURS</Text>
+    </StackPanel>
+</Panel>

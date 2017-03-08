@@ -1,0 +1,17 @@
+<App>
+  <iOS.StatusBarConfig Style="Light" />
+  <Font ux:Global="SFDisplayBold" File="assets/SanFranciscoDisplay-Bold.otf" />
+  <Font ux:Global="SFDisplayLight" File="assets/SanFranciscoDisplay-Light.otf" />
+  <Font ux:Global="SFDisplayMedium" File="assets/SanFranciscoDisplay-Medium.otf" />
+  <Font ux:Global="SFDisplayRegular" File="assets/SanFranciscoDisplay-Regular.otf" />
+
+  <Router ux:Name="router" />
+  <ClientPanel>
+  	<Navigator DefaultTemplate="login">
+      <SplashPage ux:Template="splash" router="router" />
+      <WalkthroughPage ux:Template="walkthrough" router="router" />
+  		<LoginPage ux:Template="login" router="router" />
+      <RegisterPage ux:Template="register" router="router" />
+  	</Navigator>
+  </ClientPanel>
+</App>

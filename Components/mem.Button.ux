@@ -1,0 +1,12 @@
+<Panel ux:Class="mem.Button" TextColor="#fff">
+
+  <string ux:Property="Text" />
+  <Font ux:Property="Font" />
+  <float4 ux:Property="Color" />
+  <float4 ux:Property="TextColor" />
+
+  <Rectangle Layer="Background" Color="{ReadProperty Color}" CornerRadius="100">
+  </Rectangle>
+  <mem.Text Font="{ReadProperty Font}" Value="{ReadProperty Text}" Color="{ReadProperty TextColor}" TextAlignment="Center" />
+
+</Panel>

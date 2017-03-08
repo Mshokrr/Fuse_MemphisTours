@@ -1,0 +1,16 @@
+<mem.Page ux:Class="SplashPage">
+  <Router ux:Dependency="router" />
+
+  <JavaScript File="Js/Splash.js" />
+
+  <Panel Margin="100,304,90,0">
+    <StackPanel>
+      <Grid RowCount="1" ColumnCount="2">
+        <Text TextAlignment="Center" FontSize="25" Font="SFDisplayBold" Color="#fff" Row="0" Column="0">MEMPHIS</Text>
+        <Text TextAlignment="Center" FontSize="25" Font="SFDisplayLight" Color="#fff" Row="0" Column="1">TOURS</Text>
+      </Grid>
+      <Text TextAlignment="Right" FontSize="12.5" Font="SFDisplayBold" Color="#fff">Since 1955</Text>
+    </StackPanel>
+  </Panel>
+
+</mem.Page>

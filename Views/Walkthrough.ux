@@ -1,0 +1,23 @@
+<mem.Page ux:Class="WalkthroughPage">
+  <Router ux:Dependency="router" />
+
+ <DockPanel>
+
+   <StackPanel>
+     <Panel Margin="20">
+       <Grid RowCount="1" ColumnCount="6" ClipToBounds="True">
+         <mem.Logo FontSize="25" Column="0" Row="0" ColumnSpan="3" />
+         <Panel Column="4" ColumnSpan="2" />
+         <mem.Text Column="5" FontSize="15">SKIP</mem.Text>
+       </Grid>
+     </Panel>
+   </StackPanel>
+   <StackPanel Alignment="Bottom">
+     <Grid Dock="Bottom" RowCount="1" ColumnCount="2" Alignment="Bottom">
+       <mem.Button Font="SFDisplayBold"  Column="0" Text="REGISTER" Color="#4A3B89"></mem.Button>
+       <mem.Button Font="SFDisplayBold" Column="1" Text="LOGIN" Color="#4A3B89"></mem.Button>
+     </Grid>
+   </StackPanel>
+ </DockPanel>
+
+</mem.Page>

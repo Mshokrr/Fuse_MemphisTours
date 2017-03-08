@@ -1,0 +1,40 @@
+<mem.Page ux:Class="LoginPage">
+  <Router ux:Dependency="router" />
+
+  <JavaScript File="Js/LoginPage.js" />
+
+  <Panel Margin="35">
+    <StackPanel>
+      <DockPanel>
+        <Rectangle Dock="Right">
+          <Text Font="SFDisplayRegular" Color="#fff" FontSize="15">SKIP</Text>
+        </Rectangle>
+      </DockPanel>
+      <mem.Logo FontSize="30" />
+      <Panel Margin="30" />
+      <StackPanel Margin="10">
+        <mem.Text Color="#999">Email</mem.Text>
+        <TextInput Row="1" Column="1" TextColor="#fff" CaretColor="#fff" />
+        <Rectangle Height="1" Color="#999" />
+      </StackPanel>
+      <StackPanel Margin="10">
+        <mem.Text Color="#999">Password</mem.Text>
+        <TextInput Row="1" Column="1" TextColor="#fff" CaretColor="#fff" IsPassword="true"/>
+        <Rectangle Height="1" Color="#999" />
+      </StackPanel>
+      <Panel Margin="20" />
+      <mem.Button Text="LOGIN" TextColor="#000" Color="#fff" />
+      <Panel Margin="20" />
+      <Grid RowCount="1" ColumnCount="3">
+        <Rectangle Row="1" Column="0" Height="1" Color="#999" />
+        <mem.Text Color="#999" Row="1" Column="2" FontSize="14">or</mem.Text>
+        <Rectangle Row="1" Column="3" Height="1" Color="#999" />
+      </Grid>
+      <Panel Margin="20" />
+      <mem.Button Text="LOGIN WITH GOOGLE+" />
+      <Panel Margin="20" />
+      <mem.Button Text="LOGIN WITH FACEBOOK" />
+    </StackPanel>
+
+  </Panel>
+</mem.Page>
